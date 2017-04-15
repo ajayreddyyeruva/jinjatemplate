@@ -1,0 +1,918 @@
+{
+  "vpcs": {
+    "vpc-45520c22.securitygroups-state": [
+      {
+        "Description": [
+          "Before:-Enable access to web service on ELB",
+          "After:-deleted"
+        ]
+      },
+      {
+        "GroupId": [
+          "Before:-sg-d3b8c2ae",
+          "After:-sg-d3b8c2ae"
+        ]
+      },
+      {
+        "GroupName": [
+          "Before:-qa-inventory-1-0-75-u0d6oQ-WebServiceElbSecurityGroup-SL4DF23EXSE9",
+          "After:-deleted"
+        ]
+      },
+      {
+        "FromPort": [
+          "Before:-8443",
+          "After:-8445"
+        ]
+      },
+      {
+        "IpProtocol": [
+          "Before:-tcp",
+          "After:-deleted"
+        ]
+      },
+      {
+        "CidrIp": [
+          "Before:-0.0.0.0/0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "ToPort": [
+          "Before:-8443",
+          "After:-8445"
+        ]
+      },
+      {
+        "FromPort": [
+          "Before:-8444",
+          "After:-deleted"
+        ]
+      },
+      {
+        "IpProtocol": [
+          "Before:-tcp",
+          "After:-deleted"
+        ]
+      },
+      {
+        "CidrIp": [
+          "Before:-0.0.0.0/0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "ToPort": [
+          "Before:-8444",
+          "After:-deleted"
+        ]
+      },
+      {
+        "IpProtocol": [
+          "Before:--1",
+          "After:-deleted"
+        ]
+      },
+      {
+        "CidrIp": [
+          "Before:-0.0.0.0/0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "OwnerId": [
+          "Before:-736561528805",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-aws:cloudformation:logical-id",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-WebServiceElbSecurityGroup",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-aws:cloudformation:stack-id",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-arn:aws:cloudformation:us-east-1:736561528805:stack/qa-inventory-1-0-75-u0d6oQ/be2af9b0-b8f3-11e6-8a64-503acac41e61",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-aws:cloudformation:stack-name",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-qa-inventory-1-0-75-u0d6oQ",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:mirror:uri-template",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-http://@host:5775",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:target:name",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-inventory",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:target:qualifier",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-u0d6oQ",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:target:version",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-1.0.75",
+          "After:-1.0.76"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnelId",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-role=target name=inventory version=1.0.75 stack=inventory-1-0-75-u0d6oQ port=5775 protocol=http",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-servicename",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-inventory:qa:1.0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-servicetypes",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-Inventory",
+          "After:-deleted"
+        ]
+      },
+      {
+        "VpcId": [
+          "Before:-vpc-45520c22",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Description": [
+          "Before:-Enable access to web service on ELB",
+          "After:-deleted"
+        ]
+      },
+      {
+        "GroupId": [
+          "Before:-sg-d3b8c2ae",
+          "After:-deleted"
+        ]
+      },
+      {
+        "GroupName": [
+          "Before:-qa-inventory-1-0-75-u0d6oQ-WebServiceElbSecurityGroup-SL4DF23EXSE9",
+          "After:-deleted"
+        ]
+      },
+      {
+        "FromPort": [
+          "Before:-8443",
+          "After:-deleted"
+        ]
+      },
+      {
+        "IpProtocol": [
+          "Before:-tcp",
+          "After:-deleted"
+        ]
+      },
+      {
+        "CidrIp": [
+          "Before:-0.0.0.0/0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "ToPort": [
+          "Before:-8443",
+          "After:-deleted"
+        ]
+      },
+      {
+        "FromPort": [
+          "Before:-8444",
+          "After:-deleted"
+        ]
+      },
+      {
+        "IpProtocol": [
+          "Before:-tcp",
+          "After:-deleted"
+        ]
+      },
+      {
+        "CidrIp": [
+          "Before:-0.0.0.0/0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "ToPort": [
+          "Before:-8444",
+          "After:-deleted"
+        ]
+      },
+      {
+        "IpProtocol": [
+          "Before:--1",
+          "After:-deleted"
+        ]
+      },
+      {
+        "CidrIp": [
+          "Before:-0.0.0.0/0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "OwnerId": [
+          "Before:-736561528805",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-aws:cloudformation:logical-id",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-WebServiceElbSecurityGroup",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-aws:cloudformation:stack-id",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-arn:aws:cloudformation:us-east-1:736561528805:stack/qa-inventory-1-0-75-u0d6oQ/be2af9b0-b8f3-11e6-8a64-503acac41e61",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-aws:cloudformation:stack-name",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-qa-inventory-1-0-75-u0d6oQ",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:mirror:uri-template",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-http://@host:5775",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:target:name",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-inventory",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:target:qualifier",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-u0d6oQ",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:target:version",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-1.0.75",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnelId",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-role=target name=inventory version=1.0.75 stack=inventory-1-0-75-u0d6oQ port=5775 protocol=http",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-servicename",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-inventory:qa:1.0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-servicetypes",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-Inventory",
+          "After:-deleted"
+        ]
+      },
+      {
+        "VpcId": [
+          "Before:-vpc-45520c22",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Description": [
+          "Before:-Enable access to web service on ELB",
+          "After:-deleted"
+        ]
+      },
+      {
+        "GroupId": [
+          "Before:-sg-d3b8c2ae",
+          "After:-deleted"
+        ]
+      },
+      {
+        "GroupName": [
+          "Before:-qa-inventory-1-0-75-u0d6oQ-WebServiceElbSecurityGroup-SL4DF23EXSE9",
+          "After:-deleted"
+        ]
+      },
+      {
+        "FromPort": [
+          "Before:-8443",
+          "After:-deleted"
+        ]
+      },
+      {
+        "IpProtocol": [
+          "Before:-tcp",
+          "After:-deleted"
+        ]
+      },
+      {
+        "CidrIp": [
+          "Before:-0.0.0.0/0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "ToPort": [
+          "Before:-8443",
+          "After:-deleted"
+        ]
+      },
+      {
+        "FromPort": [
+          "Before:-8444",
+          "After:-deleted"
+        ]
+      },
+      {
+        "IpProtocol": [
+          "Before:-tcp",
+          "After:-deleted"
+        ]
+      },
+      {
+        "CidrIp": [
+          "Before:-0.0.0.0/0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "ToPort": [
+          "Before:-8444",
+          "After:-deleted"
+        ]
+      },
+      {
+        "IpProtocol": [
+          "Before:--1",
+          "After:-deleted"
+        ]
+      },
+      {
+        "CidrIp": [
+          "Before:-0.0.0.0/0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "OwnerId": [
+          "Before:-736561528805",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-aws:cloudformation:logical-id",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-WebServiceElbSecurityGroup",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-aws:cloudformation:stack-id",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-arn:aws:cloudformation:us-east-1:736561528805:stack/qa-inventory-1-0-75-u0d6oQ/be2af9b0-b8f3-11e6-8a64-503acac41e61",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-aws:cloudformation:stack-name",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-qa-inventory-1-0-75-u0d6oQ",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:mirror:uri-template",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-http://@host:5775",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:target:name",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-inventory",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:target:qualifier",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-u0d6oQ",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:target:version",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-1.0.75",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnelId",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-role=target name=inventory version=1.0.75 stack=inventory-1-0-75-u0d6oQ port=5775 protocol=http",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-servicename",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-inventory:qa:1.0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-servicetypes",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-Inventory",
+          "After:-deleted"
+        ]
+      },
+      {
+        "VpcId": [
+          "Before:-vpc-45520c22",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Description": [
+          "Before:-Enable access to web service on ELB",
+          "After:-deleted"
+        ]
+      },
+      {
+        "GroupId": [
+          "Before:-sg-d3b8c2ae",
+          "After:-deleted"
+        ]
+      },
+      {
+        "GroupName": [
+          "Before:-qa-inventory-1-0-75-u0d6oQ-WebServiceElbSecurityGroup-SL4DF23EXSE9",
+          "After:-deleted"
+        ]
+      },
+      {
+        "FromPort": [
+          "Before:-8443",
+          "After:-deleted"
+        ]
+      },
+      {
+        "IpProtocol": [
+          "Before:-tcp",
+          "After:-deleted"
+        ]
+      },
+      {
+        "CidrIp": [
+          "Before:-0.0.0.0/0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "ToPort": [
+          "Before:-8443",
+          "After:-deleted"
+        ]
+      },
+      {
+        "FromPort": [
+          "Before:-8444",
+          "After:-deleted"
+        ]
+      },
+      {
+        "IpProtocol": [
+          "Before:-tcp",
+          "After:-deleted"
+        ]
+      },
+      {
+        "CidrIp": [
+          "Before:-0.0.0.0/0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "ToPort": [
+          "Before:-8444",
+          "After:-deleted"
+        ]
+      },
+      {
+        "IpProtocol": [
+          "Before:--1",
+          "After:-deleted"
+        ]
+      },
+      {
+        "CidrIp": [
+          "Before:-0.0.0.0/0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-ajay"
+        ]
+      },
+      {
+        "OwnerId": [
+          "Before:-736561528805",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-aws:cloudformation:logical-id",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-WebServiceElbSecurityGroup",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-aws:cloudformation:stack-id",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-arn:aws:cloudformation:us-east-1:736561528805:stack/qa-inventory-1-0-75-u0d6oQ/be2af9b0-b8f3-11e6-8a64-503acac41e61",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-aws:cloudformation:stack-name",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-qa-inventory-1-0-75-u0d6oQ",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:mirror:uri-template",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-http://@host:5775",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:target:name",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-inventory",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:target:qualifier",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-u0d6oQ",
+          "After:-60d6oQ"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnel:target:version",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-1.0.75",
+          "After:-1.0.76"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-funnelId",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-role=target name=inventory version=1.0.75 stack=inventory-1-0-75-u0d6oQ port=5775 protocol=http",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-servicename",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-inventory:qa:1.0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Key": [
+          "Before:-servicetypes",
+          "After:-deleted"
+        ]
+      },
+      {
+        "Value": [
+          "Before:-Inventory",
+          "After:-deleted"
+        ]
+      },
+      {
+        "VpcId": [
+          "Before:-vpc-45520c22",
+          "After:-deleted"
+        ]
+      }
+    ]
+  }
+}

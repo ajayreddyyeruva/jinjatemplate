@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Test Jinja and email template</title>
+</head>
+<body>
+<center>
+    <h1>{{ title }}</h1> 
+</center>
+<table>
+{% for dicdata in info %}
+	{% for key, value in dicdata.items() %}
+	<tr>
+		<td>{{ key }}</td>
+		<td>{{ value }}</td>
+	<tr>
+	{% endfor %}
+{% endfor %}
+
+</table>
+</body>
+</html>
