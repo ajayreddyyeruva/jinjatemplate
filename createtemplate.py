@@ -40,7 +40,6 @@ def create_email_html():
 
 
 
-
 def main():
     create_email_html()
  
