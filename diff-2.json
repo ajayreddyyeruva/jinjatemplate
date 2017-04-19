@@ -1,0 +1,130 @@
+{
+  "vpcs": {
+    "vpc-45520c22.securitygroups-state": [
+      {
+        "Description": [
+          "Before:-Enable access to web service on ELB",
+          "After:-deleted"
+        ]
+      },
+      {
+        "GroupId": [
+          "Before:-sg-d3b8c2ae",
+          "After:-deleted"
+        ]
+      },
+      {
+        "GroupName": [
+          "Before:-qa-inventory-1-0-75-u0d6oQ-WebServiceElbSecurityGroup-SL4DF23EXSE9",
+          "After:-deleted"
+        ]
+      },
+      {
+        "FromPort": [
+          "Before:-8443",
+          "After:-deleted"
+        ]
+      },
+      {
+        "IpProtocol": [
+          "Before:-tcp",
+          "After:-deleted"
+        ]
+      },
+      {
+        "CidrIp": [
+          "Before:-0.0.0.0/0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "ToPort": [
+          "Before:-8443",
+          "After:-deleted"
+        ]
+      },
+      {
+        "FromPort": [
+          "Before:-8444",
+          "After:-deleted"
+        ]
+      },
+      {
+        "IpProtocol": [
+          "Before:-tcp",
+          "After:-deleted"
+        ]
+      },
+      {
+        "CidrIp": [
+          "Before:-0.0.0.0/0",
+          "After:-deleted"
+        ]
+      },
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "ToPort": [
+          "Before:-8444",
+          "After:-deleted"
+        ]
+      },
+      {
+        "VpcId": [
+          "Before:-vpc-45520c22",
+          "After:-deleted"
+        ]
+      }
+    ],
+    "vpc-45520c34.subnets-state": [
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "ToPort": [
+          "Before:-8444",
+          "After:-deleted"
+        ]
+      },
+      {
+        "DefaultForAz": [
+          "Before:-false",
+          "After:-true"
+        ]
+      }
+    ],
+    "vpc-47220c82.vpc-state": [
+      {
+        "PrefixListIds": [
+          "Before:-[]",
+          "After:-deleted"
+        ]
+      },
+      {
+        "ToPort": [
+          "Before:-8444",
+          "After:-deleted"
+        ]
+      },
+      {
+        "DefaultForAz": [
+          "Before:-false",
+          "After:-true"
+        ]
+      }
+    ]
+  }
+}

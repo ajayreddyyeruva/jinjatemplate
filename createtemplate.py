@@ -18,20 +18,18 @@ def render_template(template_filename, context):
  
 def create_email_html():
     fname = "emailoutput.html"
-    urls = ['http://example.com/1', 'http://example.com/2', 'http://example.com/3']
-    context = {
-        'urls': urls
-    }
 
-    with open('diff.json') as data_file:
+    with open('diff-2.json') as data_file:
         data = json.load(data_file)
 
     context = data
-    title =  list(data["vpcs"].keys())[0]
-    info = data["vpcs"][title]
-    context["title"] = title
-    context["info"] = info
-    pprint(data['vpcs'][title])
+    pprint(context)
+#    title =  list(data["vpcs"].keys())[0]
+    #title =  list(data["vpcs"].keys())
+#    info = data["vpcs"][title]
+#    context["title"] = title
+#    context["info"] = info
+    #pprint(data['vpcs'][title])
 
     with open(fname, 'w') as f:
         html = render_template('email.html', context)
