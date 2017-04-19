@@ -14,7 +14,9 @@
 	{% for item in vpcvalue %}
 		{% for desc, value in item.iteritems() %}
 			<td>{{ desc }}</td>
-			<td>{{ value }}</td>
+			{% for val in value %}
+				<td>{{ val }}</td>
+			{% endfor %}
 		{% endfor %}
 	{% endfor %}
 	<tr>

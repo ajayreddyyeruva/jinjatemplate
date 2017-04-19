@@ -23,13 +23,6 @@ def create_email_html():
         data = json.load(data_file)
 
     context = data
-    pprint(context)
-#    title =  list(data["vpcs"].keys())[0]
-    #title =  list(data["vpcs"].keys())
-#    info = data["vpcs"][title]
-#    context["title"] = title
-#    context["info"] = info
-    #pprint(data['vpcs'][title])
 
     with open(fname, 'w') as f:
         html = render_template('email.html', context)
